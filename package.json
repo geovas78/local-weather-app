@@ -1,9 +1,10 @@
 {
   "name": "localcast-weather",
   "version": "1.0.0",
+  "license": "MIT",
   "scripts": {
     "ng": "ng",
-    "stadardize":"prettier **/*.ts --write",
+    "stadardize": "prettier **/*.ts --write",
     "start": "npm run standerdize && ng serve --port 5000",
     "build": "npm run standerdize && ng build",
     "test": "ng test",
